@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(159, 232, 232);
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-img img{
+    width: 100%;
+}
+
+.contact-img .btn{
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background-color: #eff707;
+    color: #000000;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-img .btn:hover{
+    color: #f3efef;
+    background-color: #000000;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+fieldset{
+    width:fit-content;
+    margin: 40px 0px 0px 70px;
+    padding: 20px;
+    
+}
+
+fieldset h2{
+    color: #000000;
+}
+
+fieldset .all-check-box{
+    display: flex;
+}
+
+fieldset .all-check-box .right-check-box{
+    margin-left: 30px;
+}
+
+#name{
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px 0;
+    /* margin: 20px 10px 5px 10px; */
+    /* border-radius: 5px; */
+    /* background-color: rgb(159, 232, 232); */
+}
+
+#website{
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#company-name{
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#email{
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px 0;
+    /* margin: 20px 10px 5px 10px; */
+}
+
+#phone-number{
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#monthly-budget{
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+
+#submitButton{
+    margin: 20px 0px 5px 0px;
+    background: #000000;
+    color: #fff;
+    /* border: 1px solid #fff; */
+    padding: 5px 10px;
+    /* border-radius: 10px; */
+    height: 30px;
+    width: 600px;
+}
+
+#submitButton:hover{
+    background-color: rgb(10, 27, 27);
+    font-weight: 500;
+    color: #fff;
+}
+
+footer{
+    background-color: #1a1717;
+    height: 100%;
+}
+
+h2{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+
+.address{
+    margin: 30px 0 20px 20px;
+    padding-top: 10px;
+}
+
+.web-phone{
+    /* display: flex; */
+    margin: 30px 0 20px 0px;
+    padding-top: 5px;
+}
+
+
+
+ footer div li{
+    list-style: none;
+    margin-left: 20px;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 5px;
+}
